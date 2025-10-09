@@ -10,10 +10,18 @@ To develop and evaluate multiple machine learning models that accurately predict
 Utilize the King County House Sales dataset or any similar housing dataset with features like:
 
 - `price` (target variable)  
-- `bedrooms`, `bathrooms`, `sqft_living`, `sqft_lot`  
-- `floors`, `waterfront`, `view`, `condition`  
-- `sqft_above`, `sqft_basement`  
-- `yr_built`, `yr_renovated`  
+- `bedrooms`
+-  `bathrooms`
+-  `sqft_living`
+-  `sqft_lot`  
+-  `floors`
+-  `waterfront`
+-   `view`
+-   `condition`  
+-   `sqft_above`
+-  `sqft_basement`  
+-  `yr_built`
+-  `yr_renovated`  
 - Location features: `city`, `zipcode`  
 
 
@@ -22,8 +30,8 @@ Utilize the King County House Sales dataset or any similar housing dataset with 
 1. Data Cleaning & Preprocessing  
    - Handle missing values  
    - Convert `date` to useful time features  
-   - Encode categorical variables (`zipcode`, `city`)  
-   - Feature engineering (e.g., `house_age = 2025 - yr_built`)  
+   - Encode categorical variables 
+   - Feature engineering  
    - Normalize features   
 
 2. Exploratory Data Analysis (EDA)
