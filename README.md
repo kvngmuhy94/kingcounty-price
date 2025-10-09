@@ -41,7 +41,8 @@ Utilize the King County House Sales dataset or any similar housing dataset with 
    - Location-based analysis
 
 3. Model Training
-   Train and compare: 
+
+    Train and compare: 
    - Linear Regression  
    - Ridge Regression
    - Lasso Regression
