@@ -24,38 +24,40 @@ Utilize the King County House Sales dataset or any similar housing dataset with 
    - Convert `date` to useful time features  
    - Encode categorical variables (`zipcode`, `city`)  
    - Feature engineering (e.g., `house_age = 2025 - yr_built`)  
-   - Scale/normalize features as needed  
+   - Normalize features   
 
 2. Exploratory Data Analysis (EDA)
    - Correlation matrix  
    - Price distribution  
-   - Feature importance (e.g., `sqft_living` vs `price`)
-- Location-based price variation (by city or zipcode)  
+   - Feature importance 
+   - Location-based analysis
 
 3. Model Training
-   Train and compare multiple regression models:  
+   Train and compare: 
    - Linear Regression  
-   - Ridge, Lasso, ElasticNet  
+   - Ridge Regression
+   - Lasso Regression
+   - ElasticNet  Regression 
    - Decision Tree Regressor  
    - Random Forest Regressor  
    - Gradient Boosting Regressor  
    - Support Vector Regressor  
    - K-Nearest Neighbors Regressor  
 
-4. Evaluation Metrics
+5. Evaluation Metrics
    - MAE (Mean Absolute Error)  
    - MSE (Mean Squared Error)  
    - RMSE (Root Mean Squared Error)  
    - R² Score  
 
-5. Model Comparison 
-   - Present results using tables or visualizations  
-   - Discuss model strengths and weaknesses  
+6. Model Comparison 
+   - Visual or tabular results 
+   - Discussion 
 
-6. Model Optimization
-   - Perform hyperparameter tuning (GridSearchCV or RandomizedSearchCV)  
-   - Apply k-fold cross-validation (e.g., 5-fold)  
+7. Model Optimization
+   - GridSearchCV or RandomizedSearchCV
+   - 5-fold cross-validation 
 
-7. Deployment
-   - Build a simple Streamlit web app to deploy the best-performing model  
-   - Allow users to input house features and get real-time price predictions
+8. Deployment
+   - Deploy best model with Streamlit 
+   - User input interface for Price Prediction 
