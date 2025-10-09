@@ -1,9 +1,9 @@
 
-# 🏡 *Project Title:*  
+# 🏡 Project Title:
 # Advanced House Price Prediction Using Machine Learning
 
 
-# 🎯 *Objective:*  
+# 🎯 Objective: 
 To develop and evaluate multiple machine learning models that accurately predict house prices based on key features such as size, location, number of rooms, and construction year.
 
 # 📁 Dataset:
