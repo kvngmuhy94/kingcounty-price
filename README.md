@@ -42,7 +42,7 @@ Utilize the King County House Sales dataset or any similar housing dataset with 
 
 3. Model Training
 
-    Train and compare: 
+    Train and compare the following models: 
    - Linear Regression  
    - Ridge Regression
    - Lasso Regression
@@ -60,8 +60,8 @@ Utilize the King County House Sales dataset or any similar housing dataset with 
    - R² Score  
 
 6. Model Comparison 
-   - Visual or tabular results 
-   - Discussion 
+   - Visual or tabular results Comparison 
+   - strengths and weaknesses Discussion 
 
 7. Model Optimization
    - GridSearchCV or RandomizedSearchCV
@@ -69,4 +69,4 @@ Utilize the King County House Sales dataset or any similar housing dataset with 
 
 8. Deployment
    - Deploy best model with Streamlit 
-   - User input interface for Price Prediction 
+   - create a user-friendly interface for Price Prediction inputs 
