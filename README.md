@@ -11,6 +11,7 @@ To develop and evaluate multiple machine learning models that accurately predict
 Utilize the *King County House Sales dataset* or any similar housing dataset with features like:
 
 - `price` *(target variable)*  
+- 'Date'
 - `bedrooms`  
 - `bathrooms`  
 - `sqft_living`  
@@ -23,7 +24,8 @@ Utilize the *King County House Sales dataset* or any similar housing dataset wit
 - `sqft_basement`  
 - `yr_built`  
 - `yr_renovated`  
-- Location features: `city`, `zipcode`  
+- 'street'
+- Location features: `city`, `zipcode`, 'country'
 
 *Dataset Summary:*
 
