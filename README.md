@@ -6,23 +6,30 @@
 # 🎯 Objective: 
 To develop and evaluate multiple machine learning models that accurately predict house prices based on key features such as size, location, number of rooms, and construction year.
 
-# 📁 Dataset:
-Utilize the King County House Sales dataset or any similar housing dataset with features like:
+# 📁 Dataset  
 
-- `price` (target variable)  
-- `bedrooms`
--  `bathrooms`
--  `sqft_living`
--  `sqft_lot`  
--  `floors`
--  `waterfront`
--   `view`
--   `condition`  
--   `sqft_above`
--  `sqft_basement`  
--  `yr_built`
--  `yr_renovated`  
+Utilize the *King County House Sales dataset* or any similar housing dataset with features like:
+
+- `price` *(target variable)*  
+- `bedrooms`  
+- `bathrooms`  
+- `sqft_living`  
+- `sqft_lot`  
+- `floors`  
+- `waterfront`  
+- `view`  
+- `condition`  
+- `sqft_above`  
+- `sqft_basement`  
+- `yr_built`  
+- `yr_renovated`  
 - Location features: `city`, `zipcode`  
+
+*Dataset Summary:*
+
+- The dataset was sourced from *Kaggle*.  
+- It contains *4,600 rows* and *18 columns*, each representing a house sale.  
+- The data covers *King County*, USA, and includes both numerical and categorical features useful for regression modeling.  
 
 
 # 🔧 Steps to Follow:
