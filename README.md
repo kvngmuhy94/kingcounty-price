@@ -11,7 +11,9 @@ To develop and evaluate multiple machine learning models that accurately predict
 Utilize the *King County House Sales dataset* o(sourced from Kaggle), which includes:
 
 *size:* 4600 rows × 18 columns 
+
 *location:* King County, USA
+
 *Target:* Price
 
 *Key Features:*
