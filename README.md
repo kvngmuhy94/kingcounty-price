@@ -8,13 +8,13 @@ To develop and evaluate multiple machine learning models that accurately predict
 
 # 📁 Dataset: 
 
-Utilize the *King County House Sales dataset* o(sourced from Kaggle), which includes:
+Utilize the *King County House Sales dataset* (sourced from Kaggle), which includes:
 
 *size:* 4600 rows × 18 columns 
 
 *location:* King County, USA
 
-*Target:* Price
+*Target Variable:* Price
 
 *Key Features:*
 
