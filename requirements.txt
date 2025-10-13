@@ -6,7 +6,6 @@ matplotlib
 seaborn
 joblib
 sklearn
-pickle
 LinearRegression
 Ridge
 Lasso
