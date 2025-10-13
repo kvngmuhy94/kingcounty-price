@@ -43,10 +43,10 @@ The dataset includes both numerical and categorical variables useful for regress
 # 🔧 Project Workflow:
 
 1. Data Cleaning & Preprocessing  
-   - Handle missing values  
-   - Encode categorical variables 
+   - Handled missing values  
+   - Encoded categorical variables 
    - Feature engineering (house_age, total room)
-   - Feature transformation (including log transformation for skewed target)
+   - Feature transformation (log_price)
 
 2. Exploratory Data Analysis (EDA)
    - Correlation matrix  
@@ -54,7 +54,7 @@ The dataset includes both numerical and categorical variables useful for regress
 
 3. Model Training
 
-    Train and compare the following models: 
+    Trained and compared the following models: 
    - Linear Regression  
    - Ridge Regression
    - Lasso Regression
@@ -74,7 +74,7 @@ The dataset includes both numerical and categorical variables useful for regress
    - R² Score  
 
 5. Model Comparison 
-   - Visual and tabular Comparison of model score
+   - Visual and tabular Comparison of model scores
    - Discussed strengths and weaknesses of each model 
 
 6. Model Optimization
@@ -82,7 +82,7 @@ The dataset includes both numerical and categorical variables useful for regress
    - 10-fold cross-validation 
 
 7. Deployment
-   - Deployed the best performing model using Streamlit 
+   - Deployed the best performing model using *Streamlit*
    - created a user-friendly web interface for real time house Price Prediction 
 
 
