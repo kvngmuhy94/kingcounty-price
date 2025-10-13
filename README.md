@@ -8,7 +8,13 @@ To develop and evaluate multiple machine learning models that accurately predict
 
 # 📁 Dataset  
 
-Utilize the *King County House Sales dataset* or any similar housing dataset with features like:
+Utilize the *King County House Sales dataset* o(sourced from Kaggle), which includes:
+
+*size:* 4600 rows × 18 columns 
+*location:* King County, USA
+*Target:* Price
+
+*Key Features:*
 
 - `price` *(target variable)*  
 - `Date`
@@ -25,29 +31,24 @@ Utilize the *King County House Sales dataset* or any similar housing dataset wit
 - `yr_built`  
 - `yr_renovated`  
 - `street`
-- Location features: `city`, `zipcode`, `country`
+- `city`
+- `zipcode`
+- `country`
 
-*Dataset Summary:*
-
-- The dataset was sourced from *Kaggle*.  
-- It contains *4,600 rows* and *18 columns*, each representing a house sale.  
-- The data covers *King County*, USA, and includes both numerical and categorical features useful for regression modeling.  
+The dataset includes both numerical and categorical variables useful for regression modeling.  
 
 
-# 🔧 Steps to Follow:
+# 🔧 Project Workflow:
 
 1. Data Cleaning & Preprocessing  
    - Handle missing values  
-   - Convert `date` to useful time features  
    - Encode categorical variables 
-   - Feature engineering  
+   - Feature engineering (house_age)
    - Normalize features   
 
 2. Exploratory Data Analysis (EDA)
    - Correlation matrix  
    - Price distribution  
-   - Feature importance 
-   - Location-based analysis
 
 3. Model Training
 
@@ -63,19 +64,21 @@ Utilize the *King County House Sales dataset* or any similar housing dataset wit
    - K-Nearest Neighbors Regressor  
 
 5. Evaluation Metrics
+  
+Used the following metrics to access model performance: 
    - MAE (Mean Absolute Error)  
    - MSE (Mean Squared Error)  
    - RMSE (Root Mean Squared Error)  
    - R² Score  
 
 6. Model Comparison 
-   - Visual or tabular results Comparison 
-   - strengths and weaknesses Discussion 
+   - Visual and tabular Comparison of model score
+   - Discussed strengths and weaknesses of each model 
 
 7. Model Optimization
-   - GridSearchCV or RandomizedSearchCV
-   - 5-fold cross-validation 
+   - Hyperparameter using RandomizedSearchCV
+   - 10-fold cross-validation 
 
 8. Deployment
-   - Deploy best model with Streamlit 
-   - create a user-friendly interface for Price Prediction inputs 
+   - Deployed the best performing model using Streamlit 
+   - created a user-friendly web interface for real time house Price Prediction 
