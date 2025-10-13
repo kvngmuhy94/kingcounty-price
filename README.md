@@ -86,6 +86,13 @@ The dataset includes both numerical and categorical variables useful for regress
    - created a user-friendly web interface for real time house Price Prediction 
 
 
+# 🧪 Performance Summary
+
+Best Model: Support Vector Machine Regressor
+
+R² Score: 70.78% (on test set after tuning)
+
+
 # 🚀 *Live Demo*  
 
 Check out the deployed Streamlit app 👉 [King County House Price Prediction App](https://isaac5886-kingcounty-price-app1-mxqgaq.streamlit.app/)
