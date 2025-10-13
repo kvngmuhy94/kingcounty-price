@@ -45,7 +45,7 @@ The dataset includes both numerical and categorical variables useful for regress
 1. Data Cleaning & Preprocessing  
    - Handle missing values  
    - Encode categorical variables 
-   - Feature engineering (house_age)
+   - Feature engineering (house_age,total room)
    - Normalize features   
 
 2. Exploratory Data Analysis (EDA)
@@ -86,5 +86,6 @@ The dataset includes both numerical and categorical variables useful for regress
    - created a user-friendly web interface for real time house Price Prediction 
 
 
-🚀 *Live Demo*  
+# 🚀 *Live Demo*  
+
 Check out the deployed Streamlit app 👉 [King County House Price Prediction App](https://isaac5886-kingcounty-price-app1-mxqgaq.streamlit.app/)
