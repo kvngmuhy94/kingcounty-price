@@ -65,22 +65,22 @@ The dataset includes both numerical and categorical variables useful for regress
    - Support Vector Regressor  
    - K-Nearest Neighbors Regressor  
 
-5. Evaluation Metrics
+4. Evaluation Metrics
   
-Used the following metrics to access model performance: 
+   Used the following metrics to access model        performance: 
    - MAE (Mean Absolute Error)  
    - MSE (Mean Squared Error)  
    - RMSE (Root Mean Squared Error)  
    - R² Score  
 
-6. Model Comparison 
+5. Model Comparison 
    - Visual and tabular Comparison of model score
    - Discussed strengths and weaknesses of each model 
 
-7. Model Optimization
+6. Model Optimization
    - Hyperparameter using RandomizedSearchCV
    - 10-fold cross-validation 
 
-8. Deployment
+7. Deployment
    - Deployed the best performing model using Streamlit 
    - created a user-friendly web interface for real time house Price Prediction 
