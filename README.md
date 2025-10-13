@@ -6,7 +6,7 @@
 # 🎯 Objective: 
 To develop and evaluate multiple machine learning models that accurately predict house prices based on key features such as size, location, number of rooms, and construction year.
 
-# 📁 Dataset  
+# 📁 Dataset: 
 
 Utilize the *King County House Sales dataset* o(sourced from Kaggle), which includes:
 
@@ -86,13 +86,13 @@ The dataset includes both numerical and categorical variables useful for regress
    - created a user-friendly web interface for real time house Price Prediction 
 
 
-# 🧪 Performance Summary
+# 🧪 Performance Summary:
 
 Best Model: Support Vector Machine Regressor
 
 R² Score: 70.78% (on test set after tuning)
 
 
-# 🚀 *Live Demo*  
+# 🚀 *Live Demo:*  
 
 Check out the deployed Streamlit app 👉 [King County House Price Prediction App](https://isaac5886-kingcounty-price-app1-mxqgaq.streamlit.app/)
