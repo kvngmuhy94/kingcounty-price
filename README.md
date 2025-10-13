@@ -45,7 +45,7 @@ The dataset includes both numerical and categorical variables useful for regress
 1. Data Cleaning & Preprocessing  
    - Handle missing values  
    - Encode categorical variables 
-   - Feature engineering (house_age,total room)
+   - Feature engineering (house_age, total room)
    - Normalize features   
 
 2. Exploratory Data Analysis (EDA)
