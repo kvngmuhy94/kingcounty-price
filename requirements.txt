@@ -4,7 +4,6 @@ numpy
 scikit-learn
 matplotlib
 seaborn
-joblib
 sklearn
 LinearRegression
 Ridge
@@ -15,3 +14,4 @@ RandomForestRegressor
 GradientBoostingRegressor
 KNeighborsRegressor
 SVR
+
