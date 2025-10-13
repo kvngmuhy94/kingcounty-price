@@ -46,7 +46,7 @@ The dataset includes both numerical and categorical variables useful for regress
    - Handle missing values  
    - Encode categorical variables 
    - Feature engineering (house_age, total room)
-   - Normalize features   
+   - Feature transformation (including log transformation for skewed target)
 
 2. Exploratory Data Analysis (EDA)
    - Correlation matrix  
