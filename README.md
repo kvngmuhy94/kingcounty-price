@@ -84,3 +84,7 @@ The dataset includes both numerical and categorical variables useful for regress
 7. Deployment
    - Deployed the best performing model using Streamlit 
    - created a user-friendly web interface for real time house Price Prediction 
+
+
+🚀 *Live Demo*  
+Check out the deployed Streamlit app 👉 [King County House Price Prediction App](https://isaac5886-kingcounty-price-app1-mxqgaq.streamlit.app/)
